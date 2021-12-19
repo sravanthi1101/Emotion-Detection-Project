@@ -3,8 +3,7 @@ import altair as alt
 import pandas as pd 
 import numpy as np 
 import base64
-
-
+import sklearn 
 import joblib 
 pipe_lr = joblib.load(open("models/emotion_classifier_pipe_lr.pkl","rb"))
 

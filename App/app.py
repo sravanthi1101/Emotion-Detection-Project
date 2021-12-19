@@ -30,7 +30,7 @@ def set_png_as_page_bg(png_file):
     st.markdown(page_bg_img, unsafe_allow_html=True)
     return
 
-set_png_as_page_bg('Emotion-Detection-Project/App/emotion.png')
+set_png_as_page_bg('emotion.png')
 
 def predict(docx):
 	results = pipe_lr.predict([docx])
